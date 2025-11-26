@@ -24,3 +24,21 @@ Verificar instalación:
 
 ```bash
 docker --version
+```
+
+# 2. Ejecución
+```bash
+docker compose up --build
+```
+# 3 Crear conexión en MySQL Workbench
+
+En **MySQL Workbench**, crea una conexión nueva con estos valores:
+
+| Campo            | Valor           |
+|------------------|-----------------|
+| Connection Name  | logging-demo-db |
+| Hostname         | 127.0.0.1       |
+| Port             | 3307            |
+| Username         | appuser         |
+| Password         | apppass         |
+| Default Schema   | logging_demo    |

@@ -31,9 +31,13 @@ class MySQLHandler(logging.Handler):
                 VALUES (%s, %s, %s, %s, %s, %s)
             """
 
+            # Formatear la excepción si existe
             exc_text = None
             if record.exc_info:
-                exc_text = self.formatException(record.exc_info)
+                if self.formatter:
+                    exc_text = self.formatter.formatException(record.exc_info)
+                else:
+                    exc_text = logging.Formatter().formatException(record.exc_info)
 
             data = (
                 record.name,
