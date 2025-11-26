@@ -45,4 +45,4 @@ En **MySQL Workbench**, crea una conexión nueva con estos valores:
 
 
 # Select en MySQL Workbench
-![Reporte generado](output/reporte.png)
+![Informe generado](./output/informe.png)
