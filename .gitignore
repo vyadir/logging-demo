@@ -1,0 +1,78 @@
+# -----------------------
+# Python
+# -----------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+*.log
+
+# Entornos virtuales
+venv/
+.env/
+.envrc
+.venv/
+
+# Archivos de configuración sensibles
+*.env
+*.env.*
+
+# Archivos de caché
+*.cache/
+.cache/
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# Compilados / distribuciones
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
+
+# -----------------------
+# Docker
+# -----------------------
+# Volúmenes locales
+data/
+db-data/
+docker-data/
+
+# Archivos creados por Docker
+**/.dockerignore
+docker-compose.override.yml
+docker-compose.local.yml
+
+# -----------------------
+# Logs
+# -----------------------
+logs/
+*.log
+*.out
+*.err
+
+# -----------------------
+# Editor / IDE
+# -----------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# PyCharm
+*.iml
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Otros
+Thumbs.db
