@@ -42,3 +42,7 @@ En **MySQL Workbench**, crea una conexión nueva con estos valores:
 | Username         | appuser         |
 | Password         | apppass         |
 | Default Schema   | logging_demo    |
+
+
+# Select en MySQL Workbench
+![Reporte generado](./output/reporte.png)
